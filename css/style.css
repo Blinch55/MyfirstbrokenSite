@@ -1,0 +1,42 @@
+table {
+    border-collapse:collapse ;
+    margin-left: 20px;
+}
+
+th,td {
+    border: 1px solid #6200ff;
+    padding: 8px;
+}
+
+tabtable td:nth-child(2),
+table td:nth-child(3) {
+    text-align: center;
+}
+
+.student_marks th,
+.student_marks td {
+    border: 5px solid #6200ff;
+    padding: 4px;
+    background-color: #e2dae8;
+}
+
+.red {
+    padding: 12px;
+    width: 600px;
+    background-color: #fa8f79;
+}
+
+.yellow {
+    padding: 12px;
+    width: 600px;
+    background-color: #f8e577;
+}
+
+.green {
+    padding: 12px;
+    width: 600px;
+    background-color: #09ff00;
+}
+.flip_vert {
+    transform: scaleY(-1);
+}
